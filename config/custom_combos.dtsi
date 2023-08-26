@@ -1,0 +1,25 @@
+/ {
+    combos {
+        compatible = "zmk,combos";
+
+        ctrl_alt_del {
+            bindings = <&kp LC(LA(DELETE))>;
+            key-positions = <11 12 41>;
+        };
+
+        destop_left {
+            bindings = <&kp LG(LC(LEFT))>;
+            key-positions = <16 15 38>;
+        };
+
+        desktop_right {
+            bindings = <&kp LG(LC(RIGHT))>;
+            key-positions = <15 16 39>;
+        };
+
+        screen_capture {
+            bindings = <&kp LG(LS(S))>;
+            key-positions = <12 24>;
+        };
+    };
+};
